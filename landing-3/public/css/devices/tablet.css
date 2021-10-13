@@ -1,0 +1,70 @@
+/**
+ * TABLET - MD (768px)
+ */
+@media (min-width: 48rem) {
+  /* BANNER */
+  .banner {
+    min-height: 100vh;
+  }
+
+  .banner__content h1 {
+    font-size: var(--font-2xl);
+    margin-bottom: 4rem;
+  }
+
+  .banner__content img {
+    width: 3rem;
+  }
+
+  /* ABOUT */
+  .feature {
+    display: flex;
+  }
+
+  .feature:first-child {
+    flex-direction: row-reverse;
+  }
+
+  .feature > * {
+    flex-basis: 50%;
+  }
+
+  .feature__content {
+    text-align: left;
+  }
+
+  /* SERVICES */
+  .services {
+    display: flex;
+  }
+
+  .services > * {
+    flex-basis: 50%;
+  }
+
+  .service__content {
+    top: 65%;
+  }
+
+  /* TESTIMONIALS */
+  .card {
+    max-width: 30rem;
+    margin: 0 auto;
+  }
+
+  /* GALLERY */
+  .gallery__item {
+    min-height: 25rem;
+  }
+
+  /* FOOTER */
+  .footer nav,
+  .footer .social-media {
+    justify-content: center;
+  }
+
+  .footer nav li,
+  .footer .social-media a {
+    margin: 0 1rem;
+  }
+}

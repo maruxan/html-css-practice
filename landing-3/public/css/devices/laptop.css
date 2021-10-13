@@ -1,0 +1,83 @@
+/**
+ * LAPTOP - LG (992px)
+ */
+@media (min-width: 62rem) {
+  /* NAVBAR */
+  .navbar .logo img {
+    height: 2rem;
+  }
+
+  label[for='nav-toggle'] {
+    display: none;
+  }
+
+  .navbar .nav-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar .nav-menu li:not(:last-child) {
+    margin: 0 2rem 0 0;
+  }
+
+  .navbar .nav-menu .cta {
+    padding: 1rem 1.5rem;
+  }
+
+  /* BANNER */
+  .banner__content {
+    transform: translateY(-10%);
+  }
+
+  /* ABOUT */
+  .feature {
+    min-height: 80vh;
+  }
+
+  .feature__content {
+    align-self: center;
+  }
+
+  /* SERVICES */
+  .service {
+    min-height: 40rem;
+  }
+
+  .service__content {
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 20rem;
+    padding: 0;
+  }
+
+  /* TESTIMONIALS */
+  #testimonials {
+    padding: 8rem var(--container);
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cards > * {
+    flex-basis: 30%;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    max-width: 20rem;
+  }
+
+  .card:not(:last-child) {
+    margin: 0;
+  }
+
+  /* GALLERY */
+  .gallery > * {
+    flex-basis: 25%;
+  }
+}

@@ -1,0 +1,42 @@
+/* GENERAL */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: var(--font-base);
+  font-family: var(--ff-body);
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-title);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* WIDE USE */
+.cover-img {
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.desktop-img {
+  display: none;
+}

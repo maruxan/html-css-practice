@@ -1,0 +1,16 @@
+/**
+ * LANDSCAPE PHONE - SM (576px)
+ */
+@media (min-width: 36rem) {
+  .desktop-img {
+    display: block;
+  }
+
+  .mobile-img {
+    display: none;
+  }
+
+  .gallery__item {
+    min-height: 20rem;
+  }
+}

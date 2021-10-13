@@ -1,0 +1,8 @@
+/**
+ * DESKTOP - XL (1280px)
+ */
+@media (min-width: 80rem) {
+  :root {
+    --container: 12%;
+  }
+}
