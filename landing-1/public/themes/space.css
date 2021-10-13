@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+  /* FONTS */
+  --font-family-body: var(--mono);
+  --font-family-title: var(--mono);
+
+  /* FONT SIZES */
+  --font-size-nav: var(--font-base);
+  --font-size-logo: var(--font-xl);
+  --font-size-banner-title: var(--font-display);
+  --font-size-banner-text: var(--font-xl);
+  --font-size-body: var(--font-base);
+  --font-size-section-title: var(--font-2xl);
+  --font-size-footer-logo: var(--font-2xl);
+  --font-size-footer-copy: var(--font-sm);
+
+  /* THEME */
+  --primary: #250a2e;
+  --accent: #ffeb35;
+
+  --bg-global: var(--primary);
+  --color-global: var(--light);
+
+  --bg-nav: transparent;
+  --color-nav: var(--light);
+
+  --bg-banner: url('../images/universe.jpg'), var(--dark);
+  --overlay-banner: rgba(0, 0, 0, 0);
+  --color-banner: var(--accent);
+
+  --bg-section: var(--primary);
+  --color-section-title: var(--accent);
+  --color-section-text: var(--light);
+
+  --bg-box: var(--dark);
+  --color-box: var(--light);
+
+  --bg-footer: var(--light);
+  --color-footer: var(--dark);
+}

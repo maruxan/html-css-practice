@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #eaeaea;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: salmon;
+}
+
+input[type='radio'] {
+  display: none;
+}
+
+.tab {
+  font-weight: bold;
+  display: inline-block;
+  width: 5rem;
+  padding: 0.5rem;
+  border: 2px salmon solid;
+  border-bottom: none;
+}
+
+.tab:hover {
+  background-color: rgb(207, 89, 76);
+  border-color: rgb(207, 89, 76);
+}
+input[id='tab-a']:checked ~ .tab[for='tab-a'],
+input[id='tab-b']:checked ~ .tab[for='tab-b'],
+input[id='tab-c']:checked ~ .tab[for='tab-c'] {
+  background-color: rgb(207, 89, 76);
+  border-color: #000;
+}
+
+.content {
+  height: 15rem;
+  width: 35rem;
+}
+
+.content .content__a,
+.content .content__b,
+.content .content__c {
+  font-size: 1.5rem;
+  display: none;
+  padding: 2rem;
+  background-color: rgb(207, 89, 76);
+  height: 100%;
+  border: 2px #000 solid;
+}
+
+input[id='tab-a']:checked ~ .content .content__a,
+input[id='tab-b']:checked ~ .content .content__b,
+input[id='tab-c']:checked ~ .content .content__c {
+  display: block;
+}

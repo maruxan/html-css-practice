@@ -1,0 +1,24 @@
+:root {
+  /* FONTS */
+  --sans: 'Prompt', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
+    Roboto;
+  --mono: 'JetBrains Mono', monospace;
+  --serif: 'Cormorant Garamond', 'Georgia', serif;
+
+  /* FONT SIZES */
+  --font-xs: 0.6em;
+  --font-sm: 0.8em;
+  --font-base: 1em;
+  --font-lg: 1.3em;
+  --font-xl: 2em;
+  --font-2xl: 4em;
+  --font-display: 8em;
+
+  /* COLORS */
+  --dark: #111;
+  --light: #eaeaea;
+
+  /* SPACING */
+  --container: 10%;
+  --section-p-y: 5rem;
+}

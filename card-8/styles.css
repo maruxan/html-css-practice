@@ -1,0 +1,110 @@
+:root {
+  /**
+  * COLORS
+  */
+  --primary: #80afcd;
+  --white: #fff;
+  --grey-200: #efefef;
+  --grey-400: #888;
+  --grey-600: #444;
+
+  /**
+  * FONT
+  */
+  --sans: Arial, Helvetica, sans-serif;
+
+  /**
+  * FONT SIZES
+  */
+  --font-xl: 1.2em;
+  --font-base: 1em;
+  --font-sm: 0.8em;
+
+  /**
+  * SHADOWS
+  */
+  --shadow: 0 0 20px 10px rgba(3, 3, 3, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: var(--sans);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--primary);
+}
+
+.card {
+  width: 25rem;
+  background: var(--grey-200);
+  box-shadow: var(--shadow);
+}
+
+.card__image {
+  position: relative;
+  height: 30rem;
+}
+.card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__stats {
+  position: absolute;
+  left: 1.5rem;
+  bottom: 1rem;
+  color: var(--white);
+}
+
+.card__stat:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.card__stat i {
+  margin-right: 0.5rem;
+}
+
+.card__info {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.card__avatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 1.5rem;
+}
+.card__avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card__title {
+  color: var(--grey-600);
+  font-size: var(--font-xl);
+  margin-bottom: 0.2rem;
+}
+
+.card__author {
+  font-size: var(--font-sm);
+  color: var(--grey-400);
+}
+
+.card__author em {
+  text-transform: capitalize;
+  font-weight: 600;
+}

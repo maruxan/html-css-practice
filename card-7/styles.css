@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap');
+
+:root {
+  /*
+  * COLORS
+  */
+  --seconday: #f5efd0;
+  --primary: rgb(77, 128, 204);
+  --grey-900: #333;
+  --grey-600: #666;
+  --grey-300: #eaeaea;
+  --white: #fff;
+
+  /**
+  * FONT SIZE
+  */
+  --font-base: 1.1em;
+  --font-xl: 2em;
+
+  /**
+  * FONT FAMILY
+  */
+  --ff-title: 'Bebas Neue', cursive;
+  --ff-body: 'EB Garamond', serif;
+  --ff-cta: 'Farsan', cursive;
+
+  /**
+  * SHADOWS
+  */
+  --shadow: 0 0 20px 8px rgba(3, 3, 3, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--seconday);
+}
+
+.card {
+  display: flex;
+
+  width: 40rem;
+  height: 20rem;
+
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 55%;
+  height: 100%;
+  padding: 2rem;
+  background: var(--white);
+}
+
+.card__title {
+  font-family: var(--ff-title);
+  font-size: var(--font-xl);
+  text-transform: uppercase;
+  color: var(--grey-900);
+}
+
+.card__text {
+  text-align: center;
+  line-height: 1.4;
+  color: var(--grey-600);
+  font-family: var(--ff-body);
+  font-size: var(--font-base);
+}
+
+.card__cta {
+  align-self: center;
+  display: flex;
+  align-items: center;
+}
+
+.card__price {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--grey-900);
+  color: var(--grey-300);
+  border-radius: 0.5rem 0 0 0.5rem;
+  border-color: var(--grey-900);
+  font-family: var(--ff-cta);
+}
+
+.card__btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary);
+  color: var(--grey-300);
+  text-transform: initial;
+  border-color: transparent;
+  border-radius: 0 0.5rem 0.5rem 0;
+  font-family: var(--ff-cta);
+  text-transform: capitalize;
+}
+
+.card__image {
+  width: 45%;
+  height: 100%;
+}
+.card__image img {
+  width: 100%;
+  height: 100%;
+}

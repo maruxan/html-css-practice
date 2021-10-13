@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  /**
+  * FONTS 
+  */
+  --sans: 'Poppins', sans-serif;
+
+  /**
+  * FONT SIZE
+  */
+  --font-sm: 0.8em;
+  --font-base: 1em;
+  --font-lg: 1.3em;
+
+  /**
+  * FONT COLOR
+  */
+  --font-color-base: #4a4a4e;
+
+  /**
+  * BACKGROUND COLOR
+  */
+  --bg-container: #fafafc;
+  --bg-tag: #ddd;
+
+  /**
+  * SHADOW
+  */
+  --shadow: 0 0 20px 8px #d0d0d0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  color: var(--font-color-base);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-container);
+}
+
+.card {
+  width: 24rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.card__image {
+  height: 15rem;
+}
+.card__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.card__body {
+  padding: 1.5rem;
+}
+
+.card__title {
+  font-family: var(--sans);
+  font-size: var(--font-lg);
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.card__text {
+  font-family: var(--sans);
+  font-size: var(--font-base);
+  line-height: 1.4;
+}
+
+.card__footer {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.card__tag {
+  display: inline-block;
+  padding: 0.2rem 0.8rem;
+
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: var(--font-sm);
+  background-color: var(--bg-tag);
+  border-radius: 3rem;
+}
+
+.card__tag:not(:last-child) {
+  margin-right: 0.5rem;
+}

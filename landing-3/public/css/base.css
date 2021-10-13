@@ -1,0 +1,77 @@
+:root {
+  /* COLORS */
+  --blue-300: #7ccfff;
+  --blue-600: #2eb2ff;
+  --blue-900: #003c5f;
+
+  --red-300: #ffbcc2;
+  --red-600: #dc3545;
+  --red-900: #a52330;
+
+  --yellow-300: #ffe699;
+  --yellow-600: #ffc107;
+  --yellow-900: #ce9a00;
+
+  --green-300: #7ecfa9;
+  --green-600: #198754;
+  --green-900: #064729;
+
+  --white: #fff;
+  --gray-light: #bbbbbb;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --black: #000;
+  --light: #f8f9fa;
+  --dark: #212529;
+
+  /* FONTS */
+  --ff-title: 'Fraunces', serif;
+  --ff-body: 'Barlow Semi Condensed', sans-serif;
+
+  /* FONT SIZES */
+  --font-xs: 0.6rem;
+  --font-sm: 0.8rem;
+  --font-base: 1rem;
+  --font-lg: 1.2rem;
+  --font-xl: 2rem;
+  --font-2xl: 4rem;
+  --font-display: 8rem;
+
+  /* SPACING */
+  --container: 8%;
+
+  /* BREAKPOINTS */
+  --media-sm: 36rem;
+  --media-md: 48rem;
+  --media-lg: 62rem;
+  --media-xl: 80rem;
+}
+
+/* GENERAL */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: var(--font-base);
+  font-family: var(--ff-body);
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-title);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

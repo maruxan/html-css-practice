@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunnyside</title>
+    <link
+      rel="shortcut icon"
+      href="./public/images/shared/favicon-32x32.png"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,300;0,600;0,900;1,100&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap"
+    />
+    <link rel="stylesheet" href="./public/css/reset.css" />
+    <link rel="stylesheet" href="./public/css/base.css" />
+    <link rel="stylesheet" href="./public/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- NAVBAR -->
+      <div class="navbar">
+        <div class="logo">
+          <img src="./public/images/shared/logo.svg" alt="sunnyside logo" />
+        </div>
+        <input type="checkbox" name="nav-toggle" id="nav-toggle" />
+        <label for="nav-toggle"
+          ><img
+            src="./public/images/shared/icon-hamburger.svg"
+            alt="hamburguer icon"
+            class="hamburguer"
+        /></label>
+        <nav class="nav-menu">
+          <li><a href="#">about</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">projects</a></li>
+          <li><a href="#" class="cta">contact</a></li>
+        </nav>
+      </div>
+
+      <!-- BANNER -->
+      <div class="banner">
+        <div class="banner__image">
+          <img
+            src="./public/images/desktop/image-header.jpg"
+            alt="half orange background image"
+            class="cover-img desktop-img"
+          />
+          <img
+            src="./public/images/mobile/image-header.jpg"
+            alt="half orange background image"
+            class="cover-img mobile-img"
+          />
+        </div>
+
+        <div class="banner__content">
+          <h1>we are creatives</h1>
+          <img
+            src="./public/images/shared/icon-arrow-down.svg"
+            alt="down arrow"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <!-- TRANSFORM -->
+      <div class="feature">
+        <div class="feature__image">
+          <img
+            src="./public/images/desktop/image-transform.jpg"
+            alt="just an egg"
+            class="cover-img desktop-img"
+          />
+          <img
+            src="./public/images/mobile/image-transform.jpg"
+            alt="just an egg"
+            class="cover-img mobile-img"
+          />
+        </div>
+        <article class="feature__content">
+          <h2>Transform your brand</h2>
+          <p>
+            We are a full service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a href="#" class="yellow">learn more</a>
+        </article>
+      </div>
+
+      <!-- STAND OUT -->
+      <div class="feature">
+        <div class="feature__image">
+          <img
+            src="./public/images/desktop/image-stand-out.jpg"
+            alt="solid glass"
+            class="cover-img desktop-img"
+          />
+          <img
+            src="./public/images/mobile/image-stand-out.jpg"
+            alt="solid glass"
+            class="cover-img mobile-img"
+          />
+        </div>
+        <article class="feature__content">
+          <h2>Stand out to the right audience</h2>
+          <p>
+            Using a collaborative formula of designers, researches,
+            photographes, videographers, and copywriters, we'll build and extend
+            your brand in digital places.
+          </p>
+          <a href="#" class="red">learn more</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="services">
+        <!-- GRAPHIC DESIGN -->
+        <article class="service">
+          <div class="service__image">
+            <img
+              src="./public/images/desktop/image-graphic-design.jpg"
+              alt="some cherries"
+              class="cover-img desktop-img"
+            />
+            <img
+              src="./public/images/mobile/image-graphic-design.jpg"
+              alt="some cherries"
+              class="cover-img mobile-img"
+            />
+          </div>
+          <div class="service__content green">
+            <h3>graphic design</h3>
+            <p>
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients
+              attention.
+            </p>
+          </div>
+        </article>
+
+        <!-- PHOTOGRAPHY -->
+        <article class="service">
+          <div class="service__image">
+            <img
+              src="./public/images/desktop/image-photography.jpg"
+              alt="an orange"
+              class="cover-img desktop-img"
+            />
+            <img
+              src="./public/images/mobile/image-photography.jpg"
+              alt="an orange"
+              class="cover-img mobile-img"
+            />
+          </div>
+          <div class="service__content blue">
+            <h3>photography</h3>
+            <p>
+              Increase your credibility by getting the most stunning
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+      <h1 class="section__title">client testimonials</h1>
+      <div class="cards">
+        <article class="card">
+          <div class="card__avatar">
+            <img
+              src="./public/images/shared/image-emily.jpg"
+              alt="Emily R avatar"
+              class="cover-img"
+            />
+          </div>
+          <p class="card__text">
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <footer class="card__client">
+            <span class="card__name">emily r.</span>
+            <span class="card__role">marketing director</span>
+          </footer>
+        </article>
+
+        <article class="card">
+          <div class="card__avatar">
+            <img
+              src="./public/images/shared/image-thomas.jpg"
+              alt="Thomas S avatar"
+              class="cover-img"
+            />
+          </div>
+          <p class="card__text">
+            Sunnyside's enthusiasm coupled with their keen interest in our
+            brand's succes made it a satisfying and ejoyable experience.
+          </p>
+          <footer class="card__client">
+            <span class="card__name">thomas s.</span>
+            <span class="card__role">chief operating officer</span>
+          </footer>
+        </article>
+
+        <article class="card">
+          <div class="card__avatar">
+            <img
+              src="./public/images/shared/image-jennie.jpg"
+              alt="Jennie F avatar"
+              class="cover-img"
+            />
+          </div>
+          <p class="card__text">
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended.
+          </p>
+          <footer class="card__client">
+            <span class="card__name">jennie f.</span>
+            <span class="card__role">business owner</span>
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <div class="gallery">
+        <!-- MILK BOTTLES -->
+        <div class="gallery__item">
+          <img
+            src="./public/images/desktop/image-gallery-milkbottles.jpg"
+            alt="milk bottles"
+            class="cover-img desktop-img"
+          />
+          <img
+            src="./public/images/mobile/image-gallery-milkbottles.jpg"
+            alt="milk bottles"
+            class="cover-img mobile-img"
+          />
+        </div>
+        <!-- ORANGE -->
+        <div class="gallery__item">
+          <img
+            src="./public/images/desktop/image-gallery-orange.jpg"
+            alt="orange"
+            class="cover-img desktop-img"
+          />
+          <img
+            src="./public/images/mobile/image-gallery-orange.jpg"
+            alt="orange"
+            class="cover-img mobile-img"
+          />
+        </div>
+        <!-- CONE -->
+        <div class="gallery__item">
+          <img
+            src="./public/images/desktop/image-gallery-cone.jpg"
+            alt="ice cream cone"
+            class="cover-img desktop-img"
+          />
+          <img
+            src="./public/images/mobile/image-gallery-cone.jpg"
+            alt="ice cream cone"
+            class="cover-img mobile-img"
+          />
+        </div>
+        <!-- SUGAR CUBES -->
+        <div class="gallery__item">
+          <img
+            src="./public/images/desktop/image-gallery-sugarcubes.jpg"
+            alt="sugar cubes"
+            class="cover-img desktop-img"
+          />
+          <img
+            src="./public/images/mobile/image-gallery-sugarcubes.jpg"
+            alt="sugar cubes"
+            class="cover-img mobile-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="logo">
+        <img src="./public/images/shared/logo.svg" alt="sunnyside logo" />
+      </div>
+      <nav>
+        <li><a href="#">about</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">projects</a></li>
+      </nav>
+      <div class="social-media">
+        <a href="#"
+          ><img
+            src="./public/images/shared/icon-facebook.svg"
+            alt="facebook icon"
+        /></a>
+        <a href="#"
+          ><img
+            src="./public/images/shared/icon-instagram.svg"
+            alt="instagram icon"
+        /></a>
+        <a href="#"
+          ><img
+            src="./public/images/shared/icon-twitter.svg"
+            alt="twitter icon"
+        /></a>
+        <a href="#"
+          ><img
+            src="./public/images/shared/icon-pinterest.svg"
+            alt="pinteres icon"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>

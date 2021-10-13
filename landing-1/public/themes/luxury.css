@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* FONTS */
+  --font-family-body: var(--serif);
+  --font-family-title: var(--serif);
+
+  /* FONT SIZES */
+  --font-size-nav: var(--font-lg);
+  --font-size-logo: var(--font-2xl);
+  --font-size-banner-title: var(--font-display);
+  --font-size-banner-text: var(--font-xl);
+  --font-size-body: var(--font-lg);
+  --font-size-section-title: var(--font-2xl);
+  --font-size-footer-logo: var(--font-2xl);
+  --font-size-footer-copy: var(--font-sm);
+
+  /* THEME */
+  --primary: #ceacac;
+
+  --bg-global: var(--primary);
+  --color-global: var(--dark);
+
+  --bg-nav: transparent;
+  --color-nav: var(--dark);
+
+  --bg-banner: url('../images/drink.jpg'), var(--dark);
+  --overlay-banner: rgba(255, 255, 255, 0.2);
+  --color-banner: var(--dark);
+
+  --bg-section: var(--primary);
+  --color-section-title: var(--dark);
+  --color-section-text: var(--dark);
+
+  --bg-box: var(--dark);
+  --color-box: var(--light);
+
+  --bg-footer: var(--light);
+  --color-footer: var(--dark);
+}

@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  height: 100vh;
+  background-color: #aedaa6;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+  width: 50rem;
+  height: 25rem;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card__image {
+  position: relative;
+  height: 100%;
+  width: 40%;
+  float: left;
+  border-right: solid #ddd 2px;
+}
+.card__image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 70%;
+  width: 70%;
+}
+
+.card__body {
+  float: left;
+  width: 60%;
+  padding: 3rem;
+  color: #515151;
+}
+
+.card__title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0.1rem;
+}
+
+.card__subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.card__price {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+}
+
+.card__text {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.8em;
+  margin-bottom: 2rem;
+}
+
+.card__btn {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: #515151;
+  text-align: center;
+  border: solid 2px #ddd;
+  padding: 0.5rem 1rem;
+  display: block;
+  width: 10rem;
+  float: left;
+}
+
+.card__btn:not(:last-child) {
+  margin-right: 0.5rem;
+}
